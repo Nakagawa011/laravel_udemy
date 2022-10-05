@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <p>test1</p>
+    <x-test-components.app>
+        <p>コンポーネント照すっと</p>
+    </x-test-components.app>
 </body>
 </html>
