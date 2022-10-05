@@ -8,6 +8,13 @@
 </head>
 <body>
     <x-test-components.app>
+        <x-slot name="header">
+            <ul>
+                <li><a href="">top</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">mypage</a></li>
+            </ul>
+        </x-slot>
         <p>コンポーネント照すっと</p>
     </x-test-components.app>
 </body>
