@@ -6,6 +6,10 @@ module.exports = {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        "./resources/**/*.js",
+        "./resources/**/*.tsx",
+        "./resources/**/*.blade.php",
+        './resources/views/components/**/*.blade.php',
     ],
 
     theme: {
