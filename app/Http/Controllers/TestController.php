@@ -8,7 +8,8 @@ use App\Http\Controllers\Controller;
 class TestController extends Controller
 {
     public function index1() {
-        return view('test-pages.test1');
+        $message = "メッセージ";
+        return view('test-pages.test1', compact('message'));
     }
 
     public function index2() {
