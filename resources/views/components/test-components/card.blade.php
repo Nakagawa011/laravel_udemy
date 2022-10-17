@@ -5,7 +5,7 @@
     'img' => '/img/sample.png',
 ])
 
-<div class="w-40 border-2 shadow-md">
+<div {{ $attributes->merge(['class' => 'w-40 border-2 shadow-md']) }}>
     <div>{{ $title }}</div>
     <img src={{ $img }} class=" m-auto" />
     <div>{{ $content }}</div>

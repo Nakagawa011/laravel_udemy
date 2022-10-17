@@ -63,5 +63,6 @@ $arr = [
         @foreach ($arr as $value)
             <x-test-components.card title="{{ $value['title'] }}" content="{{ $value['content'] }}" :message=$message />
         @endforeach
+        <x-test-components.card class=" bg-teal-200" />
     </div>
 </x-test-components.app>
